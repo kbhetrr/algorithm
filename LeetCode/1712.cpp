@@ -33,7 +33,7 @@ int main() {
 	    answer += (r - l);
 	}
 
-    cout << answer % 1000000007;
+    cout << answer;
 
     return 0;
 }
