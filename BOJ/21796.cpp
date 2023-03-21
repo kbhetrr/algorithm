@@ -141,7 +141,7 @@ int main() {
             // 변이 후 점수 저장
             e2 = get_score();
 
-            double p = (-(e2 - e1) / (5.7 * T));
+            double p = exp(-(e2 - e1) / (5.7 * T));
             if (p >= Rand.GetDouble()) {
                 e1 = e2;
                 memcpy(state, nxt_state, sizeof(int) * 1001 * 1001);

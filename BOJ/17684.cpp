@@ -85,7 +85,7 @@ void SA(double T = 10.0, double d = 0.9999, double lim = 0.005) {
             next_gene[x].second = y;
         }
         e2 = GET_SCORE();
-        double p = (-(e2 - e1) / (10.0 * T));
+        double p = exp(-(e2 - e1) / (10.0 * T));
         if (p >= Rand.GetDouble()) {
             e1 = e2;
             gene = next_gene;
