@@ -2,5 +2,6 @@ CMakeLists.txt
 /cmake-build-debug
 *.exe
 *.txt
+BOJ/lib
 .idea
 .vscode
