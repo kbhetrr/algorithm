@@ -5,5 +5,5 @@ CMakeLists.txt
 BOJ/lib
 .idea
 .vscode
-.in
-.out
+*.in
+*.out
